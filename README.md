@@ -31,7 +31,7 @@ When a PM opens a PR:
 
 1. Clone this repo via GitHub Desktop
 2. Open Claude Code in the cloned folder
-3. Tell Claude: *"create a branch called add-[their-name]"*
+3. Tell Claude: *"create a branch for my name"*
 4. Tell Claude: *"add me to the cohort page — my name is X, my title is Y"*
 5. Tell Claude: *"commit and push my changes"*
 6. Go to GitHub → click **Compare & pull request** → submit
