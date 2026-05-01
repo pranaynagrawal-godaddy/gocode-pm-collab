@@ -48,6 +48,15 @@
     .card-name { font-size: 1rem; font-weight: 700; color: #F1F5F9; margin-bottom: 4px; }
     .card-title { font-size: 0.82rem; color: #94A3B8; }
     .card-note { font-size: 0.72rem; color: #64748B; margin-top: 8px; line-height: 1.4; font-style: italic; }
+    .card-glow {
+      border: 2px solid rgba(0, 217, 160, 0.5);
+      box-shadow: 0 0 7px rgba(0, 217, 160, 0.4), 0 0 7px rgba(0, 217, 160, 0.4), 0 0 7px rgba(0, 217, 160, 0.4);
+      animation: glow-pulse 2s ease-in-out infinite;
+    }
+    @keyframes glow-pulse {
+      0%, 100% { box-shadow: 0 0 7px rgba(0, 217, 160, 0.4), 0 0 7px rgba(0, 217, 160, 0.4), 0 0 7px rgba(0, 217, 160, 0.4); }
+      50% { box-shadow: 0 0 10px rgba(0, 217, 160, 0.5), 0 0 10px rgba(0, 217, 160, 0.5), 0 0 10px rgba(0, 217, 160, 0.5); }
+    }
     .footer {
       text-align: center; margin-top: 64px;
       font-size: 0.78rem; color: #475569;
@@ -113,6 +122,11 @@
     <div class="card">
       <div class="card-name">Piyush Rohella</div>
       <div class="card-title">PM, Devices</div>
+    </div>
+
+    <div class="card card-glow">
+      <div class="card-name">eddd</div>
+      <div class="card-title">Product</div>
     </div>
 
     <!-- ADD YOUR CARD ABOVE THIS LINE -->
